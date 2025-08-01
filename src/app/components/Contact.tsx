@@ -12,7 +12,8 @@ function Contact() {
       });
 
   return (
-    <div className={`py-12 md:py-20 px-12 md:px-24 ${isLampOn ? 'bg-black' : 'bg-white'} flex flex-col lg:flex-row  gap-12 border-b border-white`}>
+    <div
+     className={`py-12 md:py-20 px-12 md:px-24 ${isLampOn ? 'bg-black' : 'bg-white'} flex flex-col lg:flex-row  gap-12 border-b border-white`}>
       <motion.div
       ref={ref}
       initial={{ x: -50, opacity: 0 }}

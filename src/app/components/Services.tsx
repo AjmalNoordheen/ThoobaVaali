@@ -3,7 +3,11 @@ import { CardItems } from "./Card";
 
 const Services = () => {
   return (
-    <div className="lg:px-16 py-2 w-full bg-[#085870] relative">
+    <div 
+    // style={{ backgroundImage: 'url("/Banner2.jpg")',
+      // backgroundSize: "cover",
+      // backgroundRepeat: "no-repeat",}}
+    className="lg:px-16 py-2 w-full bg-[#085870] relative">
       <div className="bg-[#085870] w-full rounded-xl py-6 lg:py-14 px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <CardItems
           imageUrl="/Card1.png"

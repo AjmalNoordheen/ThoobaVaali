@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const WhatsApp = () => {
-  const phoneNumber = "9197466 36230";
+  const phoneNumber = "919746636230";
   return (
     <div className="w-fit h-fit bottom-4 fixed right-4 z-50 animate-bounce">
       <Link
